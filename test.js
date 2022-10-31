@@ -1,40 +1,48 @@
+// Problem 3: You have a string set “Rahim,Karim,Arman” . Now show them as like 1.Rahim 2.Karim 3. Arman
 let nameInfo = "Rahim,Karim,Arman";
 const myArray = nameInfo.split(",");
-
-
 for(i =0;i<=myArray.length-1; i++){
     console.log(i+1,  myArray[i]);
 }
 
 
-
-// let abc={
-//     name:"rahim", 
+// Problem 5: 
+//  {
+//     name:"Rahim",
 //     child:["ali","Muhammad","Sanjana"]
-// }
-
-//  let number = [15,25,45];
-//  let divideNumber= 0;
-//  let accptedNumber = [];
-
-//  for( i =0;i<number.length;i++){
-//     divideNumber = number[i]/5;
-//     console.log(divideNumber);
-
-//     accptedNumber.push(divideNumber);
-
-    
-
-
 //  }
+// Show them as: Rahim has 3 children they are, ali, muhammad, sanjana
 
-//  console.log("New Array is : " + accptedNumber);
+let abc={
+    name:"rahim", 
+    child:["ali","Muhammad","Sanjana"]
+}
 
-// let spell = "#!apple?";
-// console.log(spell.substring(2, 7));
+ let number = [15,25,45];
+ let divideNumber= 0;
+ let accptedNumber = [];
 
-// let givenNumber = 52.967;
-// console.log(givenNumber.toFixed(2));
+ for( i =0;i<number.length;i++){
+    divideNumber = number[i]/5;
+    console.log(divideNumber);
+
+    accptedNumber.push(divideNumber);
+ }
+
+ console.log("New Array is : " + accptedNumber);
+
+
+
+
+ 
+// Problem 1: Get apple from "#!apple?" using string method
+let spell = "#!apple?";
+console.log(spell.substring(2, 7));
+
+
+// Problem 2: You have 52.967, show it 52.97
+let givenNumber = 52.967;
+console.log(givenNumber.toFixed(2));
 
 // let sentence = "Please help me out";
 // console.log(sentence.indexOf("me"));
