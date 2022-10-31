@@ -6,27 +6,14 @@ for(i =0;i<=myArray.length-1; i++){
 }
 
 
-// Problem 5: 
-//  {
-//     name:"Rahim",
-//     child:["ali","Muhammad","Sanjana"]
-//  }
-// Show them as: Rahim has 3 children they are, ali, muhammad, sanjana
 
-let abc={
-    name:"rahim", 
-    child:["ali","Muhammad","Sanjana"]
-}
 
+// Problem 4: You have an array [15,25,45,] now make another array based on this array [3,5,9] 
  let number = [15,25,45];
- let divideNumber= 0;
  let accptedNumber = [];
 
  for( i =0;i<number.length;i++){
-    divideNumber = number[i]/5;
-    console.log(divideNumber);
-
-    accptedNumber.push(divideNumber);
+    accptedNumber.push(number[i]/5);
  }
 
  console.log("New Array is : " + accptedNumber);
@@ -34,7 +21,7 @@ let abc={
 
 
 
- 
+
 // Problem 1: Get apple from "#!apple?" using string method
 let spell = "#!apple?";
 console.log(spell.substring(2, 7));
@@ -44,12 +31,23 @@ console.log(spell.substring(2, 7));
 let givenNumber = 52.967;
 console.log(givenNumber.toFixed(2));
 
+
+// Problem 6: “Please help me out” Find out the position of me
 // let sentence = "Please help me out";
 // console.log(sentence.indexOf("me"));
 
+
+
+// Problem 5: 
+//  {
+//     name:"Rahim",
+//     child:["ali","Muhammad","Sanjana"]
+//  }
+// Show them as: Rahim has 3 children they are, ali, muhammad, sanjana
 
 const father = {name : "Rahim",
                 child:["ali","Muhammad","Sanjana"]
             }
 
-console.log(father.name + "has "  + father.child.length + "children.They are " + father.child[0],father.child[1],father.child[2]);
+
+console.log(father.name + " has "  + father.child.length + " children.They are " + father.child.join(" , "));
