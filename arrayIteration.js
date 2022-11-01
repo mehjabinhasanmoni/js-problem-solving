@@ -3,10 +3,7 @@
 const numberForEach = [45,5,10,11,50,65];
 
 function myFunction(value,index,array){
-    console.log(value);
-    console.log(index);
-    console.log(array);
-    console.log("********");
+    return value;
 
 }
 numberForEach.forEach(myFunction);
@@ -36,5 +33,11 @@ const forFilterValue = numberForFilter.filter(myFilter);
 console.log("Previous Array is : ", numberForFilter);
 console.log("New Array is : ", forFilterValue);
 
+// Reduce
 
-
+const rNumbers = [45, 4, 9, 16, 25];
+function myReduce(total, value, index, array) {
+    return total + value;
+  }
+let reduceSum = rNumbers.reduce(myReduce);
+console.log("Reduce Sun is: ", reduceSum);
