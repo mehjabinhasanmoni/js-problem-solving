@@ -33,8 +33,8 @@ console.log(givenNumber.toFixed(2));
 
 
 // Problem 6: “Please help me out” Find out the position of me
-// let sentence = "Please help me out";
-// console.log(sentence.indexOf("me"));
+let sentence = "Please help me out";
+console.log(sentence.indexOf("me"));
 
 
 
