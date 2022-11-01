@@ -31,21 +31,6 @@ console.log(spell.substring(2, 7));
 let givenNumber = 52.967;
 console.log(givenNumber.toFixed(2));
 
-let achivedMarks=[
-    {
-        marks:49,
-        name:"Rahim"
-    },
-    {
-        marks:99,
-        name:"Karim"
-    },
-    {
-        marks:36,
-        name:"Alisha"
-    },
-
-]
 
 // Problem 6: “Please help me out” Find out the position of me
 // let sentence = "Please help me out";
