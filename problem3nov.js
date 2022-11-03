@@ -73,11 +73,8 @@ console.log("Total Price : ", totalPrice);
 // ["10","20","30"] show total:60 in console
 
 let arrNumber = ["10","20","30"];
-let arrNumber1;
-
 function functionTotalPrice(total,value){
-
-    return total + Number(value);
+     return total + Number(value);
 }
 
 let arrTotalPrice = arrNumber.reduce(functionTotalPrice,0);
