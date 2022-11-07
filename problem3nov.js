@@ -78,4 +78,4 @@ function functionTotalPrice(total,value){
 }
 
 let arrTotalPrice = arrNumber.reduce(functionTotalPrice,0);
-console.log(arrTotalPrice);
+console.log(arrTotalPrice);  
