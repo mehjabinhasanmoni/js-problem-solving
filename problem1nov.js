@@ -6,7 +6,7 @@ function mySenArray(value){
     senval = senval + value;
 }
 senArray.forEach(mySenArray);
-console.log(senval.toUpperCase());
+console.log("9::",senval.toUpperCase());
 
 //  You have a string "RONALDO", show the letter L in console
 
