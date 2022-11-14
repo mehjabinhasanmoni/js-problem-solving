@@ -99,3 +99,16 @@ function funTotalQuantityPrice(cQuantity,cPrice){
 }
 console.log(" Total Price : ",funTotalQuantityPrice(1400,300) );
 
+
+//  Those persones bought lottery tickets [“Sara”,“Rahim”,”Arman”,”Korim”,”Ayat”,”Saira”]. Among them, one person will WIN the lottery on every page refresh. Log the winner name
+
+let people = ["Sara","Rahim","Arman","Korim","Ayat","Saira"];
+
+
+function funRandomPeople(rPeople) {
+    const randomIndex =  Math.floor(Math.random() * people.length);
+    const randomPeople = people[randomIndex];
+    return randomPeople;
+  }
+
+  console.log("The Winner Is : ", funRandomPeople(people));
