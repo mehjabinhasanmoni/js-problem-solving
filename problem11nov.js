@@ -148,7 +148,7 @@ for(let x in stdResult){
 
 // Your date of birth is 20 Sept 1993, what is your current age now.?
 
-// let birthOfdate = 20-sep-1993;
+
 
 const d = new Date();
 const d1 = new Date("1993-9-20");
