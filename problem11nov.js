@@ -42,7 +42,7 @@ function funTotalprice(total,value){
     return total + value.price;
 };
 console.log("Total Price: ",totalProductPrice);
-const coupon=prompt("What is your coupon code?");
+const coupon="NOV15";  //prompt("What is your coupon code?");
 console.log(coupon,"COUPON");
 
 function funDiscountHandler(totalProductPrice,coupon){
@@ -73,4 +73,29 @@ funDiscountHandler(totalProductPrice,coupon);
 
 
 // Show the even numbers From 1-200
+
+let evenArray = [];
+function funEvenNumber(){
+   
+    for(let i = 1; i<=200; i++){
+            if(i%2 == 0){
+               evenArray.push(i);
+            }
+
+        }
+       
+     };
+funEvenNumber();
+console.log("Even Array are : ", evenArray.join());
+
+
+// 1400 GM chicken price is 300tk , what will be the price of 950gm chicken?
+
+
+function funTotalQuantityPrice(cQuantity,cPrice){
+   
+     return parseInt((300 * 950) / 1400);
+     
+}
+console.log(" Total Price : ",funTotalQuantityPrice(1400,300) );
 
