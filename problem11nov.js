@@ -141,7 +141,7 @@ for(let x in stdResult){
             console.log("Passed");
         }
         else{
-            console.log("Failled");
+            console.log("Failed");
         }
 }
 
