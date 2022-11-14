@@ -106,9 +106,43 @@ let people = ["Sara","Rahim","Arman","Korim","Ayat","Saira"];
 
 
 function funRandomPeople(rPeople) {
-    const randomIndex =  Math.floor(Math.random() * people.length);
-    const randomPeople = people[randomIndex];
+    const randomIndex =  Math.floor(Math.random() * rPeople.length);
+    const randomPeople = rPeople[randomIndex];
     return randomPeople;
   }
 
+
   console.log("The Winner Is : ", funRandomPeople(people));
+
+
+//   You have subjective marks dynamic object
+// {
+// 	bangla:78,
+// 	english:63,
+// 	math:32
+// }
+// 33 is the pass mark.
+// Based on pass marks, show the output in log. Note: If I increase the object size it should log actual output.
+// passed
+// passed
+// FAILED
+
+let stdResult = 
+                    {
+                    bangla:78,
+                    english:63,
+                    math:32
+                     };
+              
+for(let x in stdResult){
+        let marks = stdResult[x];
+
+        if(marks >=33){
+            console.log("Passed");
+        }
+        else{
+            console.log("Failled");
+        }
+}
+
+
